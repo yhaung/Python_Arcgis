@@ -1,0 +1,2 @@
+print ("python -m pip install pandas,geopandas, shapely, numpy" + " In some case, if u error occured this link will be useful https://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona ")
+gdal,Fiona,pyproj .... note.. file path must copy to install the above wheels)
