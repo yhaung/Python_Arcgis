@@ -1,2 +1,21 @@
 print ("python -m pip install pandas,geopandas, shapely, numpy" + " In some case, if u error occured this link will be useful https://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona ")
 gdal,Fiona,pyproj .... note.. file path must copy to install the above wheels)
+
+python install virtualenv
+python -m install venv/autogis
+env/autogis/scripts/python.exe
+
+python -m pip freeze
+exit()
+stop = ctrl + C
+
+Exercoses ;inls# https://geo-python.github.io/2018/notebooks/L5/pandas/Exploring-data-using-pandas.html
+
+#print columns
+print(object.columns)
+#print index
+print(object.index)
+#Print number of row using len()-function
+print(len(object))
+#print data type
+print(object.dtype)
