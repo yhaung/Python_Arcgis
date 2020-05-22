@@ -1,0 +1,17 @@
+def level(txt):
+  if txt.endswith(u"တိုက်နယ်ဆေးရုံ"):
+    x="တိုက်နယ်ဆေးရုံ"
+  elif txt.endswith(u"မြို့နယ်ဆေးရုံ"):   
+    x="မြို့နယ်ဆေးရုံ"
+  elif txt.endswith(u"ပြည်သူ့ဆေးရုံ"):
+     x="ပြည်သူ့ဆေးရုံ"
+  elif txt.endswith(u"ပြည်သူ့ဆေးရုံကြီး"):
+     x="ပြည်သူ့ဆေးရုံကြီး"
+  elif txt.endswith(u"အထူးကုဆေးရုံကြီး"):
+     x="အထူးကုဆေးရုံကြီး"
+  else:
+    x = "အခြား"
+  return x
+
+=============
+level( !Name!)
