@@ -1,0 +1,21 @@
+file =r"D:\OMM_GIS\Projects\COVID_19\202005___Hospital_Distance_Analysis_step_for_OMM_MOHS_Anada\20200524_Hospital_Distance_Analysis_step_for_OMM_MOHS_Anada\MIMU_Layer\village_points_mimu\myanmar_village_points.shp"
+fields = arcpy.ListFields(file)
+#######for row in arcpy.da.SearchCursor(file,["Village"]):
+     (row[0])
+     len0 =len(row[0])
+     if len0>mylen:
+         mylen=len0
+         
+mylen
+############################
+
+for field in fields:
+	mylen =0
+	if field.type == 'String':
+		for row in arcpy.da.SearchCursor(file,field.name):
+			len0 =len(row[0])
+			if len0>mylen:
+				mylen=len0
+		print(field.name,mylen)
+	else:
+		print(field.name," is skipped")	
