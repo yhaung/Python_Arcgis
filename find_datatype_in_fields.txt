@@ -16,6 +16,6 @@ for field in fields:
 			len0 =len(row[0])
 			if len0>mylen:
 				mylen=len0
-		print(field.name,mylen)
+		print(field.name, field.length, "; max string length:", mylen)
 	else:
 		print(field.name," is skipped")	
